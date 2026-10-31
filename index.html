@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>E-Portofolio PPL Mandiri | Fiasari</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="bg"></div>
+<header class="nav">
+  <a class="brand" href="#beranda"><img src="assets/img/logo.png" alt="" onerror="this.style.display='none'"><b>Fiasari,</b><span>S.T</span></a>
+  <nav class="menu">
+    <a href="#beranda" data-page="beranda">Beranda</a>
+    <div class="dd"><a href="#artefak" data-page="artefak">Artefak ▾</a>
+      <div class="dd-list" id="ddArtefak"></div></div>
+    <div class="dd"><a href="#refleksi" data-page="refleksi">Refleksi ▾</a>
+      <div class="dd-list" id="ddRefleksi"></div></div>
+  </nav>
+  <div class="nav-r">
+    <button id="theme" class="icon-btn" aria-label="Ganti tema">☀️</button>
+    <a class="btn primary" href="#" id="contactBtn">Kontak</a>
+  </div>
+</header>
+
+<main>
+<section id="beranda" class="page">
+  <div class="hero">
+    <div>
+      <h1>E-Portofolio<br><em id="hName">Nama</em></h1>
+      <p id="hDesc" class="lead"></p>
+      <div class="cta"><a class="btn primary" href="#artefak">Lihat Artefak</a><a class="btn ghost" href="#refleksi">Lihat Refleksi</a></div>
+    </div>
+    <div class="photo">
+      <img id="hPhoto" src="assets/img/profile.jpg" alt="Foto profil">
+      <div class="badge glass"><span>🏫</span><div><small id="hRole"></small><b id="hBadge"></b></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="artefak" class="page">
+  <h2>Artefak PPL Mandiri</h2>
+  <p class="lead sm">Pilih siklus, lalu buka RPP, video mengajar, atau media ajar.</p>
+  <div class="board" id="board"></div>
+  <div class="tabs" id="aTabs">
+    <button data-t="rpp" class="on">RPP</button><button data-t="video">Video</button><button data-t="media">Media Ajar</button>
+  </div>
+  <div class="panel glass" id="aPanel"></div>
+</section>
+
+<section id="refleksi" class="page">
+  <h2>Refleksi</h2>
+  <p class="lead sm">Perjalanan saya menjadi guru, ditulis dari pengalaman mengajar.</p>
+  <div class="tabs" id="rTabs"></div>
+  <div class="panel glass" id="rPanel"></div>
+</section>
+</main>
+<footer>© <span id="yr"></span> Fiasari, S.T · PPG Informatika, Universitas Negeri Yogyakarta</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
