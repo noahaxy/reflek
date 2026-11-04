@@ -16,10 +16,10 @@ const DATA = {
     n,
     title: "Siklus " + n,
     focus: "Topik/materi siklus " + n,
-    rpp: `assets/pdf/rpp-siklus-${n}.pdf`,        // upload PDF RPP ke folder ini
+    rpp: `assets/pdf/rpp-siklusn-${n}.pdf`,        // upload PDF RPP ke folder ini
     media: `assets/pdf/media-siklus-${n}.pdf`,    // PDF media ajar
     video: VIDEO_LINKS[n - 1],
-    thumb: `assets/img/video-${n}.jpeg`,           // thumbnail video
+    thumb: `assets/img/videos-${n}.jpeg`,           // thumbnail video
     analisis: [
       "Pembelajaran berlangsung sesuai dengan RPP termasuk langkah-langkah kegiatan pembelajaran yang digunakan.",
       "Kekuatan: strategi, interaksi, dan pengelolaan kelas yang berjalan baik."
