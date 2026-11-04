@@ -1,9 +1,9 @@
 /* ===== DATA: edit bagian ini saja ===== */
 const VIDEO_LINKS = [
   "https://drive.google.com/file/d/1vS3a_VTe6Z1rYH-0t_jKGiqShi74UFxG/view",
-  "https://drive.google.com/file/d/ID_VIDEO_SIKLUS_2/view",
-  "https://drive.google.com/file/d/ID_VIDEO_SIKLUS_3/view",
-  "https://drive.google.com/file/d/ID_VIDEO_SIKLUS_4/view",
+  "https://drive.google.com/file/d/1Tui7c-Y7eAum03NBYAAqGV-KmDKcrAAn/view",
+  "https://drive.google.com/file/d/1vS3a_VTe6Z1rYH-0t_jKGiqShi74UFxG/view",
+  "https://drive.google.com/file/d/1clS-6yCA76Cw3BkTIxgXdfCUI1LVl37k/view",
 ];
 
 const DATA = {
@@ -19,26 +19,23 @@ const DATA = {
     rpp: `assets/pdf/rpp-siklus-${n}.pdf`,        // upload PDF RPP ke folder ini
     media: `assets/pdf/media-siklus-${n}.pdf`,    // PDF media ajar
     video: VIDEO_LINKS[n - 1],
-    thumb: `assets/img/video-${n}.jpg`,           // thumbnail video
+    thumb: `assets/img/video-${n}.jpeg`,           // thumbnail video
     analisis: [
-      "Tulis deskripsi singkat pembelajaran yang direkam: kelas, materi, dan tujuan.",
-      "Analisis kekuatan: strategi, interaksi, dan pengelolaan kelas yang berjalan baik.",
-      "Analisis perbaikan: bagian yang belum optimal dan rencana perbaikan siklus berikutnya."
+      "Pembelajaran berlangsung sesuai dengan RPP termasuk langkah-langkah kegiatan pembelajaran yang digunakan.",
+      "Kekuatan: strategi, interaksi, dan pengelolaan kelas yang berjalan baik."
     ]
   })),
   reflections: [
     { id: "model", title: "Model Guru yang Dituju",
-      body: ["Tulis gambaran guru yang ingin Anda jadi: nilai, peran, dan ciri khasnya. Jelaskan mengapa model tersebut relevan dengan pembelajaran Informatika di era digital.",
-             "Hubungkan dengan pengalaman PPL Mandiri: momen yang membentuk pandangan Anda tentang guru yang ingin dituju."],
-      kekuatan: ["Kekuatan 1", "Kekuatan 2"], kelemahan: ["Kelemahan 1", "Kelemahan 2"], tindak: ["Rencana 1", "Rencana 2"] },
+      body: ["Menjadi Guru dengan mewujudkan pendidikan yang memberikan kesempatan belajar secara adil bagi setiap anak dengan menyesuaikan pembelajaran pada kebutuhan dan kesiapan masing-masing murid, sehingga setiap anak tumbuh menjadi pribadi berkarakter kuat dan memiliki kebiasaan belajar yang terus berkembang.",
+             "Momen yang membentuk pandangan saya tentang guru yang dituju adalah ketika saya mengikuti ppl Mandir, serta belajar di PPG. Saya belajar banyak tentang bagaimana guru dapat memanfaatkan teknologi untuk meningkatkan pembelajaran dan memberikan pengalaman belajar yang lebih interaktif bagi murid."],
+      kekuatan: ["Berorientasi pada murid", "Memprioritaskan pembelajaran yang berbasis teknologi"], kelemahan: ["Konsep asesmen", "Keterbatasan waktu"], tindak: ["Mengikuti Pelatihan, Sertifikasi & Organisasi Guru", "Mengembangkan Pembelajaran yang Berpihak pada Murid serta Interaktif terintegrasi TPACK"] },
     { id: "filosofi", title: "Filosofi Mengajar",
-      body: ["Uraikan keyakinan dasar Anda tentang belajar dan mengajar: bagaimana peserta didik belajar, dan apa peran guru.",
-             "Berikan contoh nyata dari siklus pembelajaran yang menunjukkan filosofi ini dalam praktik."],
-      kekuatan: ["Kekuatan 1", "Kekuatan 2"], kelemahan: ["Kelemahan 1", "Kelemahan 2"], tindak: ["Rencana 1", "Rencana 2"] },
+      body: ["Saya meyakini bahwa setiap peserta didik memiliki potensi, karakteristik, dan cara belajar yang berbeda. Peserta didik belajar secara optimal ketika mereka terlibat aktif dalam proses pembelajaran, diberi kesempatan untuk mengeksplorasi, mencoba, berdiskusi, menemukan makna, serta merefleksikan pengalaman belajarnya. Oleh karena itu, belajar bukan sekadar menerima dan menghafal informasi dari guru, melainkan sebuah proses membangun pemahaman melalui pengalaman yang bermakna. Dalam hal ini, guru berperan sebagai fasilitator, pembimbing, sekaligus teladan yang mampu menciptakan lingkungan belajar yang aman, inklusif, dan menghargai keberagaman, serta memberikan ruang bagi setiap peserta didik untuk berkembang sesuai potensinya. Filosofi ini saya terapkan dalam pembelajaran Informatika pada materi pengolahan angka, dimulai dengan memberikan pertanyaan pemantik dan pre-test untuk mengetahui pengetahuan awal peserta didik, dilanjutkan dengan kegiatan eksplorasi melalui LKPD digital berbasis Discovery Learning secara bertahap, sehingga peserta didik dapat menemukan sendiri fungsi dan penggunaan fitur pengolahan angka melalui penyelesaian masalah kontekstual. Selama proses tersebut, saya memberikan pendampingan, pertanyaan pengarah, dan umpan balik sesuai kebutuhan masing-masing peserta didik. Pada akhir pembelajaran, peserta didik diajak menyimpulkan hasil temuannya dan melakukan refleksi untuk menyadari perkembangan pemahaman mereka. Melalui siklus tersebut, saya ingin menghadirkan pembelajaran yang tidak hanya berorientasi pada hasil, tetapi juga menghargai proses, menumbuhkan rasa percaya diri, kemandirian, dan keberanian peserta didik untuk terus belajar dan mengembangkan potensinya."],
+      kekuatan: ["embelajaran berpusat pada peserta didik dengan memberikan kesempatan untuk mengeksplorasi, menemukan, dan membangun pemahaman secara mandiri", "Penggunaan LKPD digital dan masalah kontekstual membuat pembelajaran lebih aktif, menarik, dan relevan dengan kehidupan sehari-hari"], kelemahan: ["Perbedaan kemampuan awal dan kecepatan belajar", "Murid Lebih berfokus pada penyelesaian tugas"], tindak: ["Menerapkan pembelajaran berdiferensiasi melalui pemberian bantuan, tantangan, dan pendampingan sesuai kebutuhan murid", "Memperkuat kegiatan diskusi, refleksi, dan asesmen formatif"] },
     { id: "akhir", title: "Refleksi Akhir",
-      body: ["Rangkum perjalanan 4 siklus: perubahan praktik mengajar, temuan penting, dan pelajaran terbesar.",
-             "Tutup dengan komitmen pengembangan diri setelah PPL Mandiri."],
-      kekuatan: ["Kekuatan 1", "Kekuatan 2"], kelemahan: ["Kelemahan 1", "Kelemahan 2"], tindak: ["Rencana 1", "Rencana 2"] }
+      body: ["Melalui rangkaian kegiatan pembelajaran, saya mulai mengubah praktik mengajar dari yang sebelumnya lebih berpusat pada guru menjadi pembelajaran yang memberikan ruang lebih besar bagi peserta didik untuk aktif mengeksplorasi, berdiskusi, dan menemukan pemahamannya sendiri. Saya menemukan bahwa setiap peserta didik memiliki kemampuan, kebutuhan, dan kecepatan belajar yang berbeda sehingga pendekatan yang fleksibel dan pendampingan yang tepat sangat diperlukan. Pelajaran terbesar yang saya peroleh adalah bahwa keberhasilan pembelajaran bukan hanya tentang tercapainya tujuan materi, tetapi juga tentang bagaimana peserta didik merasa dihargai, percaya diri, dan berani mengembangkan potensinya. Ke depan, saya berkomitmen untuk terus belajar, memperbaiki strategi pembelajaran, mengembangkan asesmen yang bermakna, serta menciptakan lingkungan belajar yang inklusif, menyenangkan, dan berpihak pada kebutuhan peserta didik."],
+      kekuatan: ["Pembelajaran yang berpusat pada peserta didik melalui eksplorasi, diskusi, dan aktivitas kontekstual", "Komitmen untuk menciptakan pembelajaran yang inklusif, menyenangkan, dan menghargai potensi setiap peserta didik"], kelemahan: ["RKegiatan pembelajaran yang mengakomodasi seluruh murid", "Keterbatasan waktu"], tindak: ["Memperdalam pemahaman tentang pembelajaran berdiferensiasi dan menerapkannya secara konsisten.", "Melakukan refleksi dan evaluasi secara berkala."] }
   ]
 };
 
